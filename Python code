@@ -1,0 +1,30 @@
+BMI Calculator
+name = input("Enter your name: ")
+weight = int(input("Enter your weight in pounds: "))
+height = int(input("Enter your height in inches: "))
+BMI = (weight * 703 ) / (height * height)
+print(BMI)
+​
+if BMI>0:
+        if (BMI<18.9):
+            print(name +", you are under weight.")
+        elif (BMI<=24.9):
+            print(name +", you are normal weight.")
+        elif (BMI<29.9):
+             print(name +", you are over weight.")
+        elif (BMI<34.9):
+             print(name+",you are obese.")
+        elif (BMI<39.9):
+             print(name+",you are severely obese.")
+        else:
+             print(name+",you are morbidily obese.")
+else:
+    print("Enter valid input")
+        
+                
+/* OUTPUT */
+Enter your name: anand
+Enter your weight in pounds: 170
+Enter your height in inches: 69
+25.101869355177485
+anand, you are over weight.
