@@ -1,2 +1,2 @@
 # BMI-Calculator
-This python code is used to measure body mass index
+# This Calculator uses Python code to provide body mass index after data is input by user.
